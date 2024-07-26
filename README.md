@@ -1,27 +1,22 @@
-# Teste desenvolvedor JR.
+# Personagens Rick and Morty
 
-Utilizando Node.js e Express retorne uma página estática que contenha uma lista dos personagens de Rick e Morty com os seguintes atributos: `nome, gênero, status, quantidade de aparições em cada uma das temporadas e aparições no total`, os personagens devem ser lidos a partir do arquivo: `characters.json`.
+Este projeto busca, conta, ordena e exibe personagens de uma série a partir de um endpoint de API. Os personagens são listados com base no número de episódios em que apareceram e exibidos apenas se estiverem vivos.
 
-## Considerações:
+## Funcionalidades
 
-- Devem ser listados somentes os personagens vivos
+- Busca personagens a partir de um endpoint de API.
+- Conta o número de aparições em cada temporada.
+- Ordena os personagens pela quantidade de episódios (decrescente) e pelo nome (alfabética).
+- Exibe os personagens que estão vivos com detalhes como imagem, nome, último local visto, gênero, número de aparições por temporada e status.
 
-- Ordenar por: (decrescente) quantidade de aparições, nome (crescente)
+## Pré-requisitos
 
-- Existem 3 temporadas com 31 episódios ao todo, sendo a primeira temporada com 11 episódios e as restantes com 10 episódios cada.
+- Navegador web
+- Servidor local para servir o arquivo `characters.json` (por exemplo, usando o [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) no VSCode)
 
-- Fique a vontade para utilizar qualquer motor de view (PUG, ejs, handlebars, etc..)
+## Instalação
 
-# Envio do teste
+1. Clone o repositório ou faça o download dos arquivos.
 
-Ao finalizar, deve ser feito um PR (pull request) para este repositório contendo o seu nome e suas modificações para que seja feita a avaliação.
-
-# Avaliação
-
-Irá ser avaliado: Seu conhecimento técnico, sua habilidade para resolver problemas de forma simples e eficiente e boas práticas de código.
-
-# Exemplo
-
-Quanto ao design fique livre para criar, no entanto todos os dados devem ser exibidos conforme é mostrado no seguinte exemplo:
-
-![alt text](/example.png)
+```bash
+git clone https://github.com/seu-usuario/seu-repositorio.git
