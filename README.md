@@ -14,9 +14,5 @@ Este projeto busca, conta, ordena e exibe personagens de uma série a partir de 
 - Navegador web
 - Servidor local para servir o arquivo `characters.json` (por exemplo, usando o [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) no VSCode)
 
-## Instalação
-
-1. Clone o repositório ou faça o download dos arquivos.
-
 ```bash
 git clone https://github.com/seu-usuario/seu-repositorio.git
